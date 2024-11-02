@@ -39,6 +39,9 @@ body {
   letter-spacing: 0.02em;
   color: #404bbf;
 }
+.contact-link:focus {
+  color: #404bbf;
+}
 .desc {
   background-color: #2e2f42;
 }
@@ -113,7 +116,7 @@ body {
   text-align: center;
   color: #2e2f42;
 }
-.team-members-list {
+.team-members-item {
   background-color: #ffffff;
 }
 .team-members-text {
@@ -123,7 +126,7 @@ body {
   text-align: center;
 }
 .portfolio-title {
-  font-weight: 500;
+  font-weight: 700;
   text-transform: capitalize;
   font-size: 36px;
   line-height: 1.11;
@@ -132,6 +135,7 @@ body {
   color: #2e2f42;
 }
 .portfolio-subtitle {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
